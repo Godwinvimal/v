@@ -1,0 +1,34 @@
+.code{
+	width: 80%;
+	height: auto;
+	color: #FFF;
+	padding: 1em 1em;
+	border-radius: 8px;
+	background-color: #000;
+	font-size: 14px;
+}
+.num{color: #FFA500;}
+.built-in{font-style: italic;color: #E9950C;}
+.str{color: #00A67D;}
+.kwd{color: #2E95D3;}
+.var{color: #DF3079;}
+
+
+.blog-content{
+	width: 100%;
+	display: flex;
+}
+
+.navigation{
+	width: 20%;
+	padding: 2em;
+}
+
+.navigation ul{
+	list-style: none;
+}
+
+.content{
+	width: 80%;
+	padding: 2em;
+}

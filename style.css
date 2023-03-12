@@ -1,8 +1,40 @@
 @font-face {
-	font-family: montserrat;
+	font-family: poppins;
 	src: url(fonts/Poppins-Regular.ttf);
 }
 
+*{padding: 0; margin: 0;}
+
 body{
-	font-family: montserrat;
+	font-family: poppins;
+}
+
+.header{
+	max-width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 2em;
+	background-color: #1E90FF;
+	box-shadow: 0 0 25px rgb(0 0 0 / 15%);
+}
+
+.header-text{
+	color: #FFFFFF;
+	font-weight: 100;
+}
+
+.header-top-navigation{
+	padding: 2em 0;
+}
+
+.header-top-navigation nav ul {
+	display: flex;
+}
+
+.header-top-navigation nav ul li{
+	color: #FFFFFF;
+	list-style: none;
+	padding-left: 1em;
 }
